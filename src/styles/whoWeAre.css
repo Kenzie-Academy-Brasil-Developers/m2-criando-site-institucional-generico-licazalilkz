@@ -1,0 +1,18 @@
+.who-we-are{
+    /* border: black solid; */
+    color: white;
+    height: 400px auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color:var(--color-gray1);
+    padding: 20px;
+}
+
+.who-we-are h2{
+    width: 600px;
+}
+
+.who-we-are p{
+    padding: 50px;
+}

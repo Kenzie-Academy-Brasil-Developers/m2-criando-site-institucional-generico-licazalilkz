@@ -1,0 +1,71 @@
+.modal__controller{
+    width: 450px;
+    height: 370px;
+    background-color: var(--color-gray1);
+    color: white;
+    border: var(--color-brand1) solid 3px;
+}
+
+.modal__controller::backdrop{
+    background-color: rgba(0, 0, 0, .90);
+}
+
+.modal__email{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 20px;
+    gap: 10px;
+    width: 448px;
+    background: var(--color-gray0);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: var( --color-gray4);
+    border: 1px solid #191C1F;
+}
+
+.modal__email--button{
+    height: 60px;
+    width: 448px;
+    left: 28px;
+    top: 297px;
+    border-radius: 0px;
+    padding: 0px 32px 0px 32px;
+    background-color: var(--color-brand1);  
+    box-sizing: border-box;
+    border: none; 
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.modal__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    gap: 24px;
+}
+
+.modal__close{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    margin-right: 20px;
+    background: var(--color-gray2);
+    border-radius: 4px;
+    border: none;
+    width: 38px;
+    height: 32px;
+    cursor: pointer;
+    color: var(--color-gray4);
+}

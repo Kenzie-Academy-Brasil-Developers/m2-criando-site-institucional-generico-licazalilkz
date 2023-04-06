@@ -1,1 +1,35 @@
 /* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --color-gray0: #191c1f ;
+    --color-gray1: #212529;
+    --color-gray2: #343a40;
+    --color-gray3: #ADB5BD;
+    --color-gray4: #CED4DA;
+    --color-gray5: #f8F9fA;
+    /*------------------------------------------------- */
+    --color-brand1: #4c6ef5;
+    --color-brand2: #364fc7;
+}
+body{
+    padding-top: 50px;
+    font-family: 'Inter var', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+footer{
+    height: 55px;
+    width: 100%;
+    background-color: var(--color-gray0);
+    display: flex;
+    justify-content:center;
+    padding-bottom: 20px;
+    /* fontes, tenho que organizar depois */
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}

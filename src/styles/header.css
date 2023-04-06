@@ -1,0 +1,32 @@
+header{
+    height: 55px;
+    width: 100%;
+    background-color: var(--color-gray0);
+    border-bottom: var(--color-brand1) solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* fontes, tenho que organizar depois */
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* padding */
+}
+
+header p{
+    padding-left: 50px;
+}
+
+header .header__button{
+    margin-right: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: white solid 1px;
+    background-color: var(--color-gray1);
+    color: white;
+}
